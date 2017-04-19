@@ -7,7 +7,7 @@
         <title>PMEAS</title>
     </head>
 
-    <body>
+    <body onload="loadAlert()" onunload="unloadAlert()">
         <div id="wrapper">
             <div id="banner">
             </div>
@@ -38,6 +38,14 @@
                 <script>
                     function showAlert() {
                         alert("Thank you for contacting us! We will be in touch soon!");
+                    }
+
+                    function loadAlert() {
+                        alert("Thanks for wanting to contact us!");
+                    }
+
+                    function unloadAlert() {
+                        alert("Thanks for attempting to contact us!");
                     }
                 </script>
 
