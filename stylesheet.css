@@ -39,9 +39,33 @@
 
 #zein img {
     float: left;
+    margin-right: 5px;
 }
 
-.clearobj::after {
+#lee {
     clear: left;
+    padding-top: 20px;
 }
 
+#lee img {
+    float: right;
+}
+
+#josh {
+    clear: right;
+    padding-top: 20px;
+}
+
+#josh img {
+    float: left;
+    margin-right: 5px;
+}
+
+#matthew {
+    clear: left;
+    padding-top: 20px;
+}
+
+#matthew img {
+    float: right;
+}
