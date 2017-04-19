@@ -1,0 +1,22 @@
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 700px;
+    max-width: 1024px;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+}
+
+#nav a {
+    color: #FFFFFF;
+}
