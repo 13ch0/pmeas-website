@@ -6,17 +6,32 @@
     max-width: 1024px;
 }
 
-#nav li {
-    display: inline;
+#banner {
+    height: 298px;
+    max-width: 100%;
+    background-image: url("images/logo.png");
+    background-size: 100% 100%
 }
 
-#nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    background-color: #333;
+#nav {
+    background-color: #444343;
+    overflow: hidden;
 }
 
 #nav a {
-    color: #FFFFFF;
+    float: left;
+    display: block;
+    color: #f0745b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #a4d1c2;
+}
+
+#nav a.active {
+    background-color: #a4a3a3;
+    color: #444343;
 }
