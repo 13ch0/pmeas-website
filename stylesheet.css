@@ -69,3 +69,20 @@
 #matthew img {
     float: right;
 }
+
+label {
+    float: left;
+    display: block;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}

@@ -19,8 +19,27 @@
             </div>
 
             <div id="main">
-                <p>Welcome to the homepage of the Portable Multi-Audio Effects Software System (PMEAS). PMEAS allows you to modulate audio played from an instrument with seven unique effects. After modulating the audio it projects it to a selectable speaker system. And stuff </p>
-                <p>Video goes here</p>
+                <p>We appreciate your eagerness to contact us for feedback or any other topic about the PMEAS system! Simply fill out the information below and click Submit to send your message. You should hear back from us in a few years.</p>
+
+                <form method="post" action="#" onsubmit="showAlert()">
+
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" rows="5" cols="70" required></textarea>
+
+                    <input type="submit" id="submit" value="Send">
+                </form>
+
+                <script>
+                    function showAlert() {
+                        alert("Thank you for contacting us! We will be in touch soon!");
+                    }
+                </script>
 
             </div>
         </div>
