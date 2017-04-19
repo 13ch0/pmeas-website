@@ -25,6 +25,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-right: 1px solid #a4d1c2;
 }
 
 #nav a:hover {
