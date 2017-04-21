@@ -20,9 +20,17 @@
             </div>
 
             <div id="main">
-                <p>Welcome to the homepage of the Portable Multi-Audio Effects Software System (PMEAS). PMEAS allows you to modulate audio played from an instrument with seven unique effects. After modulating the audio it projects it to a selectable speaker system. And stuff </p>
-                <p>Video goes here</p>
+                <p>The PMEAS system was a proudct of the WSU Senior Project (Capstone) class. It was inspired by the need to find an alternative to expensive physical instrument pedals. It was created under the vision of our client Benjamin Ciaglo, an alumni of Wayne State. The vision was to create a product that musicians can use to modulate numerous audio effects digitally for free. If willing, musicians familiar with development and begin contributing to the project and adding their own features that other musicians might want to use as well. Indeed, another large aspect of this project is to keep it Open Source under the GPLv3 license. This way, there would be no question about its usage in various environments a musician would find themselves in.</p>
 
+                <p>This project is made possible through integrating several external projects together under the PMEAS hood to enable modulation and audio capture and playback as well as through the creation of the graphical interfaces the user can use to enable the effects. The PMEAS project uses the following software:</p>
+                <ul>
+                    <li><a href="jack site">JACK</a> - Allows the device to capture audio from an instrument and play it back to the a speaker.</li>
+                    <li><a href="pyo site">Pyo</a> - Performs the actual audio modulation (and loop functionality) once captured by JACK.</li>
+                    <li><a href="qt site">Qt</a> - The frontend framework for creating the GUI application on desktop applications.</li>
+                </ul>
+
+
+                <p>Without the tools provided by these frameworks, the project would not be as robust and great as it is currently! The project tries best to balance high quality modulation and stability with the lowest possible latency (time taken to play a note on the instrument and hear it modulated in the speaker). The use of Pyo applies great audio modulation techniques and algorithms to modulate audio properly. You can read more about how audio is modulated in our brief <a href="audiomod.html">Introduction to Audio Modulation article</a>.</p>
             </div>
         </div>
     </body>
