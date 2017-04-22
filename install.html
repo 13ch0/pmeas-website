@@ -20,8 +20,30 @@
             </div>
 
             <div id="main">
-                <p>Welcome to the homepage of the Portable Multi-Audio Effects Software System (PMEAS). PMEAS allows you to modulate audio played from an instrument with seven unique effects. After modulating the audio it projects it to a selectable speaker system. And stuff </p>
-                <p>Video goes here</p>
+                <h1>Installation Instructions</h1>
+                <p>This page will guide you through the basics for how to install the modulation application on your modulation device and the graphical interface using a Qt environment.</p>
+
+                <h2>Modulation Application Installation</h2>
+                    <ol>
+                        <li>Clone this repo to a local directory.</li>
+                        <li>Run the install script sudo ./install.sh to download all necessary dependencies and register the service with systemd.</li>
+                        <li>Plug the instrument to be played into a USB port on the modulation device.</li>
+                        <li>Plug the speaker that will be used to project the modulated audio into the 3.5mm jack port on the modulation device.</li>
+                        <li>Start the PMEAS service by calling sudo systemctl start pmeas.service.</li>
+                        <li>To enable the optional loop machine functionality, follow the instructions outlined in the <a href="gpioinstall.html">GPIO Installation Guide</a>.</li>
+                    </ol>
+
+                <h2>Graphical Interface Installation</h2>
+                    <ol>
+                        <li>Download this project repository.</li>
+                        <li>Download and install all of the Necessary Dependencies.</li>
+                        <li>Open up the Qt Creator program from your system application menu; start menu on windows, linux application menu, etc.</li>
+                        <li>Click on the File->Open toolbar menu, and locate your downloaded project repository folder.</li>
+                        <li>Open the pmeas-frontend.pro file.</li>
+                        <li>Click on the bottom left run button, it is a green play button.</li>
+                        <li>The frontend should compiler and run.</li>
+                        <li>Wait for the application to launch.</li>
+                    </ol>
 
             </div>
         </div>
