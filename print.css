@@ -1,0 +1,10 @@
+@media print {
+
+    body {
+        background-color: #FFFFFF;
+    }
+
+    #banner, #nav, #demovideo {
+        display: none;
+    }
+}
