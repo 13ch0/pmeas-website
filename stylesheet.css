@@ -86,3 +86,20 @@ textarea {
     display: block;
     margin-bottom: 1em;
 }
+
+#firstcol {
+    text-align: center;
+    float: left;
+    width: 330px;
+}
+
+#secondcol {
+    text-align: center;
+    margin: 0 340px 0 340px;
+}
+
+#thirdcol {
+    text-align: center;
+    float: right;
+    width: 330px;
+}
