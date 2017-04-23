@@ -20,6 +20,7 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="install.html">Installation</a></li>
                     <li><a href="developers.html">Meet The Developers</a></li>
+                    <li id="sourcecode"><a href="https://github.com/pmeas/">Source</a></li>
                 </ul>
             </div>
 
@@ -65,9 +66,18 @@
 
                 <ol>
                     <li>Begin by assembling the breadboard in a similar fashion as the image below:</li>
-                    <img class="gpioimg" src="images/breadboard_connections.jpeg" alt="Breadboard Assembly Image" />
+                    <img class="centerimg" src="images/breadboard_connections.jpeg" alt="Breadboard Assembly Image" />
+                    <p class="tip">Take note here that for the stompbox seen in the photo, the red-colored
+                         connector pin will be connected to power, and the green-colored connector pin will connect to ground.</p>
+                     <p class="warning">The LED light we use here requires the use of a 220-ohm resistor.
+                         Make sure any LED you place receives the proper amount of voltage to avoid shorting the board.</p>
                     <li>Begin by assembling the breadboard in a similar fashion as the image below:</li>
-                    <img class = "gpioimg" src="images/pi_connections.jpeg" alt="Connecting Pi to Breadboard Image" />
+                    <img class = "centerimg" src="images/pi_connections.jpeg" alt="Connecting Pi to Breadboard Image" />
+                    <p class="tip">Be careful to power the stompbox and the LED light with the proper pins on the Pi, else the circuit will never be activated.
+                         In this project, Raspberry Pi 3B GPIO pin number 17 is used to activate the stompbox, and GPIO pin number 23 is used to activate the LED light.
+                          Click here to see where you can locate these pins on the Pi board.
+                          Ground can be connected to any of the pins labelled with "GND" as seen in the link.
+                          For our purposes, we use board pin 39 (i.e the lowest pin on the left side) for ease of identification.</p>
                     <li>Power on the Pi and use the stompbox to confirm it works as intended.</li>
                 </ol>
             

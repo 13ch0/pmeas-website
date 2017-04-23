@@ -20,6 +20,7 @@
                     <li><a href="about.html">About</a></li>
                     <li><a class="active" href="install.html">Installation</a></li>
                     <li><a href="developers.html">Meet The Developers</a></li>
+                    <li id="sourcecode"><a href="https://github.com/pmeas/">Source</a></li>
                 </ul>
             </div>
 
@@ -31,8 +32,9 @@
                     of the audio played.</p>
 
                 <h2>Modulation Application Installation</h2>
+                <p class="warning">Installation of this component must be done on a Linux compatible machine (i.e Raspbian on a Raspberry Pi).</p>
                     <ol>
-                        <li>Clone this repo to a local directory.</li>
+                        <li>Clone the <a href="https://github.com/pmeas/pmeas-backend">Modulation Application Respository</a> to a local directory.</li>
                         <li>Run the install script sudo ./install.sh to download all necessary dependencies and register the service with systemd.</li>
                         <li>Plug the instrument to be played into a USB port on the modulation device.</li>
                         <li>Plug the speaker that will be used to project the modulated audio into the 3.5mm jack port on the modulation device.</li>
@@ -41,8 +43,9 @@
                     </ol>
 
                 <h2>Graphical Interface Installation</h2>
+                <p class="tip">Make sure you have Qt already installed before attempting to install the interface. Download it from <a href="https://www.qt.io/">here</a>.</p>
                     <ol>
-                        <li>Download this project repository.</li>
+                        <li>Clone the <a href="https://github.com/pmeas/pmeas-frontend">Graphical Interface Respository</a> to a local directory.</li>
                         <li>Download and install all of the Necessary Dependencies.</li>
                         <li>Open up the Qt Creator program from your system application menu; start menu on windows, linux application menu, etc.</li>
                         <li>Click on the File->Open toolbar menu, and locate your downloaded project repository folder.</li>

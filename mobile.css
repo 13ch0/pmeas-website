@@ -17,6 +17,10 @@
         border: none;
     }
 
+    #sourcecode {
+        float: none;
+    }
+
     #firstcol {
         float: none;
         width: 100%;
@@ -36,7 +40,7 @@
         width: 100%;
     }
 
-    .gpioimg {
+    .gpioimg, #screenshot {
         width: 100%;
     }
 }

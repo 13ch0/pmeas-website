@@ -49,6 +49,10 @@ body {
     overflow: hidden;
 }
 
+#sourcecode {
+    float: right;
+}
+
 .footer {
     margin-top: 20px;
     border-top: 1px solid #444343;
@@ -146,4 +150,25 @@ table, th, td {
 #audiomodgif {
     display: block;
     margin: auto;
+}
+
+#screenshot {
+    display: block;
+    margin: auto;
+}
+
+.tip {
+    display: block;
+    padding: 10px;
+    border-radius: 3%;
+    border: 1px solid #000000;
+    background-color: #47c63b;
+}
+
+.warning {
+    display: block;
+    padding: 10px;
+    border-radius: 3%;
+    border: 1px solid #000000;
+    background-color: red;
 }
