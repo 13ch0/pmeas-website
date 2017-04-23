@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1024px) {
     
     #banner {
-        background-image: url("images/logo_mobile.png");
+        /*background-image: url("images/logo_mobile.png");*/
         margin-bottom: 20px;
     }
 
@@ -42,5 +42,11 @@
 
     .gpioimg, #screenshot {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #banner {
+        background-image: url("images/logo_mobile.png");
     }
 }
