@@ -7,6 +7,9 @@
         <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta charset="utf-8">
+        <meta name="keywords" content="Modulator, Raspberry Pi", "Audio", "Audio Effect">
+        <meta name="description" content="Free Audio Modulation System for Raspberry Pi">
+        <meta name="author" content"Zein Hijazi">
         <title>PMEAS</title>
     </head>
 
@@ -65,22 +68,20 @@
                 <h2>Installation Procedures</h2>
                 <p class="warning">Before connecting any components to the device, ensure it is powered <strong>off</strong> to avoid shorting the device or any of the components.</p>
 
-                <ol>
-                    <li>Begin by assembling the breadboard in a similar fashion as the image below:</li>
+                    <p>1. Begin by assembling the breadboard in a similar fashion as the image below:</p>
                     <img class="centerimg" src="images/breadboard_connections.jpeg" alt="Breadboard Assembly Image" />
                     <p class="tip">Take note here that for the stompbox seen in the photo, the red-colored
                          connector pin will be connected to power, and the green-colored connector pin will connect to ground.</p>
                      <p class="warning">The LED light we use here requires the use of a 220-ohm resistor.
                          Make sure any LED you place receives the proper amount of voltage to avoid shorting the board.</p>
-                    <li>Begin by assembling the breadboard in a similar fashion as the image below:</li>
+                    <p>2. Connect the assembled breadboard from step 1 to the Raspberry Pi by following the picture below:</p>
                     <img class = "centerimg" src="images/pi_connections.jpeg" alt="Connecting Pi to Breadboard Image" />
                     <p class="tip">Be careful to power the stompbox and the LED light with the proper pins on the Pi, else the circuit will never be activated.
                          In this project, Raspberry Pi 3B GPIO pin number 17 is used to activate the stompbox, and GPIO pin number 23 is used to activate the LED light.
                           Click here to see where you can locate these pins on the Pi board.
                           Ground can be connected to any of the pins labelled with "GND" as seen in the link.
                           For our purposes, we use board pin 39 (i.e the lowest pin on the left side) for ease of identification.</p>
-                    <li>Power on the Pi and use the stompbox to confirm it works as intended.</li>
-                </ol>
+                    <p>3. Power on the Pi and use the stompbox to confirm it works as intended.</p>
             
 
             </div>

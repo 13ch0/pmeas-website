@@ -172,3 +172,7 @@ table, th, td {
     border: 1px solid #000000;
     background-color: red;
 }
+
+#abouttable {
+    margin: 0 auto;
+}
